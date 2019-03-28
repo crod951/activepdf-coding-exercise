@@ -17,6 +17,14 @@ class Uploader extends Component {
           name={"file"}
           server="http://localhost:3000/upload"
           allowRevert="false"
+          onprocessfile={(err, fileItem) => {
+            fetch("http://localhost:3000/IMG.pdf")
+            .then(res => res.blob())
+            .then(blob => {
+              window.initReaderPlus(blob);
+            });
+            console.log('onprocessfile', fileItem.filename, fileItem.source);      
+          }}
         />
       </div>
     )
