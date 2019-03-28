@@ -60,6 +60,10 @@
               // On document load you can add addtional options such as 
               // adding annotations, populating form fields and controlling 
               // elements of the user interface
+              readerplus.mainmenu.File.General.addItem("Save and Print", "Save and Print", "save-print.png", false, "", "", function () { 
+                // readerplus.Document.print(); does a save automatically, no need to call .save()
+                readerplus.Document.print();
+              });
             });
 
             // Document settings
