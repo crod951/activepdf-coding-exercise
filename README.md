@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # How to run the app
-`cd` into the expressServer directory and run: `npm start`  
+`cd` into the backend directory and run: `npm start`  
 Make sure the express server is using port 3000 for localhost.  
 If it is not, read section: "Express Server not on port 3000 for localhost"
 

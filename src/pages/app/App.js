@@ -9,7 +9,7 @@ class App extends Component {
         <div className="uploader" >
           <Uploader />
         </div>
-        <div id="ReaderPlus" class="readerplus"></div>
+        <div id="ReaderPlus" className="readerplus"></div>
       </div>
     );
   }
