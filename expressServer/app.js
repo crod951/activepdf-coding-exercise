@@ -34,6 +34,10 @@ app.post('/upload', (req, res, next) => {
         return res.status(500).send(err)
       }
 
+      const spawn = require( 'child_process' ).spawnSync
+      const vbs = spawn( 'cscript.exe', [ './public/ImageToPDF.vbs', 'one' ] )
+      console.log( `status: ${vbs.status}` );
+
       res.json({
         file: `public/${req.files.file.name}`,
       })
