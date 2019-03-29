@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ReaderPlus from '../../components/reader-plus/ReaderPlus';
 import Uploader from '../../components/uploader/Uploader';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
         <div className="uploader" >
           <Uploader />
         </div>
-        <div id="ReaderPlus" className="readerplus"></div>
+        <ReaderPlus />        
       </div>
     );
   }
