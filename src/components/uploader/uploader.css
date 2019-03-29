@@ -1,4 +1,6 @@
 .uploader {
   text-align: center;
-  width: auto;
+  margin: auto;
+  margin-top: 150px;
+  width: 70%;
 }
