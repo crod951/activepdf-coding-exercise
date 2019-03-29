@@ -14,7 +14,7 @@ class Uploader extends Component {
       <div className="uploader">
         <FilePond
           acceptedFileTypes={['image/*']}
-          labelIdle={`Drag & Drop your picture or <span class="filepond--label-action">Browse</span>`}
+          labelIdle={`Drag & Drop your image or <span class="filepond--label-action">Browse</span>`}
           name={"file"}
           server="http://localhost:3000/upload"
           allowRevert="false"
