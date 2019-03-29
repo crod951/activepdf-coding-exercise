@@ -22,6 +22,7 @@ class Uploader extends Component {
             fetch("http://localhost:3000/IMG.pdf")
             .then(res => res.blob())
             .then(blob => {
+              this.props.onChange();
               window.initReaderPlus(blob);
             });
             console.log('onprocessfile', fileItem.filename, fileItem.source);      
