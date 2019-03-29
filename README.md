@@ -1,11 +1,12 @@
+# ActivePDF Coding Exercise
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Getting Started
+## Getting Started
 After cloning the repository,
 In the project directory run: `npm install` to install despendencies for the frontend  
 Then, `cd` into the backend directory and run: `npm install` to install despendencies for the backend 
 
-# How to run the app
+## How to run the app
 `cd` into the backend directory and run: `npm start`  
 Make sure the express server is using port 3000 for localhost.  
 If it is not, read section: "Express Server not on port 3000 for localhost"
@@ -19,7 +20,7 @@ Reply with `Y`
 And the app should open for you on [http://localhost:3001](http://localhost:3001)
 
 
-### Express Server not on port 3000 for localhost
+## Express Server not on port 3000 for localhost
 If your express server is not running on port 3000 for localhost you will need to change:  
 The port number to the port your express server is running on in the 2 localhost URLs in `/src/components/uploader/Uploader.js`  
 They should be located on lines: `18` and `21`  
