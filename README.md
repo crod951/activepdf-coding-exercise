@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Getting Started
+After cloning the repository,
+In the project directory run: `npm install` to install despendencies for the frontend  
+Then, `cd` into the backend directory and run: `npm install` to install despendencies for the backend 
+
 # How to run the app
 `cd` into the backend directory and run: `npm start`  
 Make sure the express server is using port 3000 for localhost.  
